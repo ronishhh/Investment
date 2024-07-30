@@ -1,3 +1,6 @@
 <template>
-  <div class="text-3xl text-red-300">Main App Component</div>
+  <Main />
 </template>
+<script setup>
+import Main from "./layout/Main.vue"
+</script>
