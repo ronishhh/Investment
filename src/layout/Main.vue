@@ -1,7 +1,8 @@
 <template>
   <div>
     <!-- Header conent -->
-    <div class="bg-red-400">
+    <div>
+      <Marquee />
       <div class="container mx-auto">
         <Header />
       </div>
@@ -21,8 +22,9 @@
 </template>
 
 <script setup>
-import Header from "../components/Header.vue";
-import Footer from "../components/Footer.vue";
+import Marquee from "@/components/Marquee.vue";
+import Header from "@/components/Header.vue";
+import Footer from "@/components/Footer.vue";
 </script>
 
 <style lang="scss" scoped></style>
