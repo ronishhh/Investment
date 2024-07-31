@@ -13,7 +13,7 @@
         <RouterView />
       </div>
     </div>
-    <div class="bg-purple-400">
+    <div>
       <div class="container mx-auto">
         <Footer />
       </div>
