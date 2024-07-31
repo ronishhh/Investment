@@ -16,7 +16,7 @@
         <span class="mail-id ml-3">xafere1313@leacore.com</span>
       </div>
       <div class="map-info flex">
-        <img :src="callIcon" alt="Map Icon" class="map-icon" />
+        <img :src="mapIcon" alt="Map Icon" class="map-icon" />
         <span class="location-detail ml-3"
           >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia,
           placeat?</span
