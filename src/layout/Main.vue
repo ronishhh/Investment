@@ -8,7 +8,7 @@
       </div>
     </div>
     <!-- Main content -->
-    <div class="bg-green-300">
+    <div>
       <div class="container mx-auto">
         <RouterView />
       </div>
