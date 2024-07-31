@@ -1,13 +1,11 @@
 <template>
   <div>
-    HomeView
+    <InvestmentFocus />
   </div>
 </template>
 
 <script setup>
-
+import InvestmentFocus from "@/components/InvestmentFocus.vue";
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>

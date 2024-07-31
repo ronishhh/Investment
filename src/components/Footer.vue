@@ -2,7 +2,7 @@
   <footer class="footer text-base-content py-10">
     <aside>
       <img :src="brandLogo" alt="logo without text" height="120" width="120" />
-      <p>
+      <p class="mb-3">
         Finance Investment
         <br />
         Providing reliable partnership since 1992
@@ -55,7 +55,9 @@
   </footer>
   <footer class="footer text-base-content border-base-300 border-t py-4">
     <aside class="grid-flow-col items-center">
-      <p>Copyright © 2024 - All right reserved by Finance Investment Ltd.</p>
+      <p>
+        Copyright © {{ year }} - All right reserved by Finance Investment Ltd.
+      </p>
     </aside>
     <nav class="md:place-self-center md:justify-self-end">
       <div class="grid grid-flow-col gap-4">
@@ -82,4 +84,6 @@ import {
   instagramSVG,
   facebookSVG,
 } from "../../utils/index.ts";
+
+const year = new Date().getFullYear();
 </script>
