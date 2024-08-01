@@ -9,7 +9,12 @@
     <div class="carousel carousel-center rounded-box w-2/3 space-x-4 p-4">
       <div class="carousel-item" v-for="item in carouselItems" :key="item">
         <div class="overlay-container">
-          <img :src="item.imgLink" class="rounded-box" />
+          <div class="h-[400px] w-[300px]">
+            <img
+              :src="item.imgLink"
+              class="rounded-box w-full h-full object-cover"
+            />
+          </div>
           <div class="overlay">
             <div class="absolute bottom-10 mx-4 text-white">
               <h3 class="md:text-base font-medium">{{ item.title }}</h3>
@@ -25,40 +30,34 @@
 import { reactive } from "vue";
 const carouselItems = reactive([
   {
-    title: "Ice cream",
+    title: "Tourism",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, quis.",
     imgLink:
-      "https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.webp",
+      "https://i.pinimg.com/originals/21/e1/fb/21e1fb3d41173217d99ad57dc8417210.jpg",
   },
   {
-    title: "Grapes",
+    title: "Agriculture",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, quis.",
     imgLink:
-      "https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.webp",
+      "https://i.pinimg.com/originals/77/a9/59/77a959d0af926db99f636778907a7e89.jpg",
   },
   {
-    title: "Orange",
+    title: "Information Technology",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, quis.",
     imgLink:
-      "https://img.daisyui.com/images/stock/photo-1494253109108-2e30c049369b.webp",
+      "https://i.pinimg.com/originals/e1/f3/6c/e1f36cff2cfe551bd0b5377255b53adb.jpg",
   },
   {
-    title: "Pineapple",
+    title: "Clean Energy",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, quis.",
     imgLink:
-      "https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.webp",
+      "https://i.pinimg.com/564x/e3/31/fc/e331fcd10fdb455454dc964121c0e0d7.jpg",
   },
   {
-    title: "Cherry",
+    title: "Education",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, quis.",
     imgLink:
-      "https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.webp",
-  },
-  {
-    title: "Mystery Fruit",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, quis.",
-    imgLink:
-      "https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.webp",
+      "https://i.pinimg.com/564x/75/4f/a5/754fa5d98ecc794ec7812e37a0b6180f.jpg",
   },
 ]);
 </script>
