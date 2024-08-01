@@ -1,12 +1,7 @@
 <template>
-  <div class="p-3 bg-gray-100">
+  <div class="p-3 marquee-wrapper">
     <div class="marquee marquee--hover-pause">
       <ul class="marquee__content">
-        <!-- <li>Join Us for Just NPR.999!</li>
-        👌
-        <li>
-          <span class="font-medium">Your Path to Growth Starts Here</span>
-        </li> -->
         <li v-for="i in 6" :key="i" class="flex justify-around gap-3">
           <span>Join Us for Just NPR.999!</span>
           <span class="font-medium">Your Path to Growth Starts Here</span>
@@ -15,11 +10,6 @@
       </ul>
 
       <ul aria-hidden="true" class="marquee__content">
-        <!-- <li>Join Us for Just NPR.999!</li>
-        👌
-        <li>
-          <span class="font-medium">Your Path to Growth Starts Here</span>
-        </li> -->
         <li v-for="i in 6" :key="i" class="flex justify-around gap-3">
           <span>Join Us for Just NPR.999!</span>
           <span class="font-medium">Your Path to Growth Starts Here</span>
@@ -31,6 +21,24 @@
 </template>
 
 <style scoped>
+.marquee-wrapper {
+  background-image: linear-gradient(
+    to bottom,
+    #e5e7eb,
+    #e7eaed,
+    #eaecef,
+    #eceff1,
+    #eff1f3,
+    #f1f3f4,
+    #f2f4f6,
+    #f4f6f7,
+    #f5f7f8,
+    #f7f8f9,
+    #f8f9fa,
+    #f9fafb
+  );
+}
+
 .marquee {
   --gap: 1rem;
   position: relative;

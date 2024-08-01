@@ -17,9 +17,11 @@
         </h2>
       </div>
     </div>
-    <div class="company-overview text-justify text-lg mt-4 px-[50px] w-full">
+    <div
+      class="company-overview text-justify text-lg mt-4 px-[50px] w-full rounded-lg"
+    >
       <h3 class="text-5xl font-bold mb-2">Finance Investment</h3>
-      <span>
+      <span class="tracking-wide leading-loose">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam minus
         officiis quia, vero atque illo illum ipsum, temporibus ipsam
         voluptatibus corrupti perspiciatis. Facilis mollitia quidem obcaecati
@@ -57,11 +59,13 @@
 }
 .company-overview {
   background-image: linear-gradient(
-    to right,
-    #ffffff,
-    #fdfdfd,
+    to bottom,
     #f3f4f6,
     #f4f5f7,
+    #f5f7f8,
+    #f6f8f9,
+    #f7f9fa,
+    #f8fafb,
     #fafafb,
     #fbfbfc,
     #fcfcfd,
