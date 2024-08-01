@@ -17,6 +17,6 @@
   </div>
 </template>
 <script setup>
-import Navbar from "./Navbar.vue";
-import { brandLogo } from "../../utils/index.ts";
+import Navbar from "../Header/Navbar.vue";
+import { brandLogo } from "../../../utils/index.ts";
 </script>
