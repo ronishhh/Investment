@@ -1,5 +1,5 @@
 <template>
-  <div class="navbar-center hidden lg:flex items-center">
+  <div class="navbar-center hidden lg:flex items-center z-50">
     <ul class="menu menu-horizontal px-1 font-medium">
       <li><router-link :to="{ name: 'home' }">Home</router-link></li>
       <li><router-link :to="{ name: 'about' }">About</router-link></li>
