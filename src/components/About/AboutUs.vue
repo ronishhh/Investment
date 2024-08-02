@@ -11,7 +11,7 @@
       />
       <div class="title-container">
         <h2
-          class="text-8xl font-bold absolute top-[262px] left-[50px] text-white animated-text"
+          class="md:text-8xl text-7xl font-bold absolute md:top-[250px] top-[270px] md:left-[50px] left-[20px] text-white animated-text"
         >
           About Us
         </h2>
@@ -21,7 +21,7 @@
       class="company-overview text-justify text-lg mt-4 px-[50px] w-full rounded-lg"
     >
       <h3 class="text-5xl font-bold mb-2">Finance Investment</h3>
-      <span class="tracking-wide leading-loose">
+      <span class="md:tracking-wide md:leading-loose">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam minus
         officiis quia, vero atque illo illum ipsum, temporibus ipsam
         voluptatibus corrupti perspiciatis. Facilis mollitia quidem obcaecati
