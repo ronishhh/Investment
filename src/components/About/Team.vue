@@ -8,7 +8,7 @@
       <div
         class="upper bg-gray-100 h-full flex flex-col items-center justify-start pt-12"
       >
-        <h3 class="text-5xl font-bold w-3/4 text-center tracking-wide">
+        <h3 class="md:text-5xl text-3xl font-bold w-3/4 text-center tracking-wide">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit.
           Necessitatibus, sed.
         </h3>
@@ -27,16 +27,18 @@
               :space-between="110"
               :pagination="{ clickable: true }"
             >
-              <swiper-slide v-for="i in 8" :key="i">
-                <div class="h-56 w-56 bg-gray-200 team">
+              <swiper-slide v-for="team in teamData" :key="team">
+                <div class="h-56 w-56 bg-gray-200 rounded-lg team">
                   <img
-                    src="https://t3.ftcdn.net/jpg/02/43/12/34/360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg"
+                    :src="team.image"
                     alt="team"
-                    class="w-full h-full object-cover"
+                    class="w-full h-full rounded-lg object-cover"
                   />
                 </div>
-                <span class="text-lg font-medium">John Doe</span><br />
-                <span class="text-md font-medium">CEO & Founder</span>
+                <span class="text-lg font-medium">{{ team.name }}</span><br />
+                <span class="text-md font-medium text-gray-500"
+                  >{{ team.role }}</span
+                >
               </swiper-slide>
             </swiper>
           </div>
@@ -47,6 +49,49 @@
 </template>
 <script setup>
 import { Swiper, SwiperSlide } from "swiper/vue";
+import { reactive } from "vue";
+const teamData = reactive([
+  {
+    name: "John Doe",
+    role: "CEO & Founder",
+    image: "https://t3.ftcdn.net/jpg/02/43/12/34/360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg",
+  },
+  {
+    "name": "Jane Smith",
+    "role": "Chief Operating Officer",
+    "image": "https://i.pinimg.com/236x/fa/9c/4b/fa9c4bccfffa98a27009017c63c27d26.jpg"
+  },
+  {
+    "name": "Michael Johnson",
+    "role": "Chief Technology Officer",
+    "image": "https://t3.ftcdn.net/jpg/01/94/24/91/360_F_194249112_O0jR3G68zPz8w6mjFlSf0I0OaMB7tS8V.jpg"
+  },
+  {
+    "name": "Emily Davis",
+    "role": "Chief Financial Officer",
+    "image": "https://t3.ftcdn.net/jpg/03/14/32/38/360_F_314323821_Pt4As0BrvRpRC57YxI7Gbs9Fhguo3EG4.jpg"
+  },
+  {
+    "name": "Chris Brown",
+    "role": "Chief Marketing Officer",
+    "image": "https://t3.ftcdn.net/jpg/02/64/90/41/360_F_264904168_mW06VHEauhdScHJ9MZks2YIg1E7Y8TUz.jpg"
+  },
+  {
+    "name": "Amanda Wilson",
+    "role": "Chief Human Resources Officer",
+    "image": "https://t3.ftcdn.net/jpg/03/12/48/72/360_F_312487207_X2CH3IXzKk67bFSd9GbR3yMWDi6D9RTH.jpg"
+  },
+  {
+    "name": "David Martinez",
+    "role": "Chief Product Officer",
+    "image": "https://t3.ftcdn.net/jpg/02/45/59/93/360_F_245599357_jgQJpZ2v8apCHReMFGI3InleXBGsdEYs.jpg"
+  },
+  {
+    "name": "Sophia Lee",
+    "role": "Chief Customer Officer",
+    "image": "https://t3.ftcdn.net/jpg/03/15/47/83/360_F_315478308_5SGJw5hhGcZgRCHpWPIvE4Ty0yL9kK7H.jpg"
+  }
+])
 </script>
 <style>
 .team {
