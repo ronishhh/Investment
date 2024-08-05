@@ -7,7 +7,7 @@
     <div class="flex justify-center">
       <div class="flex flex-col">
         <h3 class="md:text-5xl text-2xl font-medium md:mt-8">
-          Lorem ipsum dolor sit amet consectetur adipisicing.
+          Get insights from our CEO on the mission that guides our company
         </h3>
         <div class="quote-container my-[20px] p-[20px] bg-[#f9f9f9]">
           <blockquote class="quote text-lg">
