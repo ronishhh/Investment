@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col justify-center items-center">
     <div class="my-4 text-center">
-      <h2 class="investment-title border-b-4 pb-4 text-5xl">
+      <h2 class="investment-title border-bottom">
         Investment Focus
       </h2>
       <p class="my-4">Lorem ipsum dolor sit amet consectetur.</p>

@@ -1,12 +1,12 @@
 <template>
   <div class="mt-20 px-[50px]">
     <div class="my-4 text-center">
-      <h2 class="mission-title text-5xl">Our Mission</h2>
-      <p class="my-4">Lorem ipsum dolor sit amet consectetur.</p>
+      <h2 class="mission-title mx-auto border-bottom">Our Mission</h2>
+      <p class="my-4 text-gray-500">Lorem ipsum dolor sit amet consectetur.</p>
     </div>
     <div class="flex justify-center">
       <div class="flex flex-col">
-        <h3 class="md:text-5xl text-2xl font-medium md:mt-8">
+        <h3 class="h2 font-medium md:mt-8">
           Get insights from our CEO on the mission that guides our company
         </h3>
         <div class="quote-container my-[20px] p-[20px] bg-[#f9f9f9]">
@@ -15,7 +15,7 @@
           </blockquote>
           <cite class="block text-right text-[0.9em] mt-2">- Steve Jobs</cite>
         </div>
-        <div class="mt-8 leading-relaxed w-[90%]">
+        <div class="leading-relaxed w-[90%]">
           <span>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
             consequatur? Quidem, dolore ad. Aspernatur quam dolorum autem nemo,

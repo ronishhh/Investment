@@ -29,6 +29,7 @@ h2,
   line-height: 2.5rem;
   font-weight: 600;
   letter-spacing: -0.025rem;
+  width: fit-content;
 
   @media (max-width: 768px) {
     font-size: 1.5rem;
@@ -121,4 +122,24 @@ h6,
     font-size: 14px;
     line-height: 1rem;
   }
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+ul, ol {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+.border-bottom {
+  border-bottom: 3px solid #86efac;
+  padding-bottom: 8px;
 }
