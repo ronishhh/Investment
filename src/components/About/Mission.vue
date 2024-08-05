@@ -4,23 +4,77 @@
       <h2 class="mission-title text-5xl">Our Mission</h2>
       <p class="my-4">Lorem ipsum dolor sit amet consectetur.</p>
     </div>
-    <div class="text-center">
-      <span>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
-        consequatur? Quidem, dolore ad. Aspernatur quam dolorum autem nemo,
-        illum iusto numquam reprehenderit, repellat odio dicta ad totam
-        reiciendis deserunt veritatis! Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Deserunt illum facere, repellendus amet libero
-        laboriosam.
-      </span>
-      <br /><br />
-      <span>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos
-        nulla quibusdam ut expedita aut labore, voluptates quo. Commodi tempora
-        harum voluptatem error minima dolore quae voluptatibus quibusdam, quidem
-        accusamus, tenetur necessitatibus. Totam explicabo, nam deleniti ipsam
-        iste ad nesciunt ipsa?
-      </span>
+    <div class="flex justify-center">
+      <div class="flex flex-col">
+        <h3 class="md:text-5xl text-2xl font-medium md:mt-8">
+          Lorem ipsum dolor sit amet consectetur adipisicing.
+        </h3>
+        <div class="quote-container my-[20px] p-[20px] bg-[#f9f9f9]">
+          <blockquote class="quote text-lg">
+            The only way to do great work is to love what you do.
+          </blockquote>
+          <cite class="block text-right text-[0.9em] mt-2">- Steve Jobs</cite>
+        </div>
+        <div class="mt-8 leading-relaxed w-[90%]">
+          <span>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
+            consequatur? Quidem, dolore ad. Aspernatur quam dolorum autem nemo,
+            illum iusto numquam reprehenderit, repellat odio dicta ad totam
+            reiciendis deserunt veritatis! Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Deserunt illum facere, repellendus
+            amet libero laboriosam.
+          </span>
+          <br /><br />
+          <span>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Dignissimos nulla quibusdam ut expedita aut labore, voluptates quo.
+            Commodi tempora harum voluptatem error minima dolore quae
+            voluptatibus quibusdam, quidem accusamus, tenetur necessitatibus.
+            Totam explicabo, nam deleniti ipsam iste ad nesciunt ipsa?
+          </span>
+          <br /><br />
+          <span>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Dignissimos nulla quibusdam ut expedita aut labore, voluptates quo.
+            Commodi tempora harum voluptatem error minima dolore quae
+            voluptatibus quibusdam, quidem accusamus, tenetur necessitatibus.
+            Totam explicabo, nam deleniti ipsam iste ad nesciunt ipsa?
+          </span>
+        </div>
+      </div>
+      <div class="rounded-xl md:mt-16">
+        <img
+          src="https://i.pinimg.com/564x/8f/f5/48/8ff54886a9c368990bd92f9e3ccc1f38.jpg"
+          alt="ceo image"
+          class="h-[600px] w-[1000px] object-cover rounded-xl"
+        />
+      </div>
     </div>
   </div>
 </template>
+<style scoped>
+.quote-container {
+  border-left: 5px solid #ccc;
+  font-style: italic;
+}
+
+.quote {
+  quotes: "“" "”";
+}
+
+.quote::before {
+  content: open-quote;
+  font-size: 2em;
+  line-height: 0;
+  margin-right: 0.1em;
+  vertical-align: -0.4em;
+}
+
+.quote::after {
+  content: close-quote;
+  font-size: 2em;
+  line-height: 0;
+  margin-left: 0.1em;
+  vertical-align: -0.4em;
+}
+</style>
