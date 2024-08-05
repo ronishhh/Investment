@@ -8,7 +8,7 @@
       <div
         class="upper bg-gray-100 h-full flex flex-col items-center justify-start pt-12"
       >
-        <h3 class="text-5xl font-bold w-3/4 text-center tracking-wide">
+        <h3 class="md:text-5xl text-3xl font-bold w-3/4 text-center tracking-wide">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit.
           Necessitatibus, sed.
         </h3>

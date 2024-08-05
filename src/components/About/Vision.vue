@@ -5,7 +5,7 @@
       <p class="my-4">Discover the vision behind our mission</p>
     </div>
     <div
-      class="flex mt-8 justify-center items-center vision"
+      class="flex mt-8 justify-center items-center xl:gap-4 gap-12 vision"
       v-for="item in visionDesc"
       :key="item.id"
     >
@@ -65,5 +65,12 @@ const visionDesc = reactive([
 .vision:nth-child(even) .vision-img {
   flex-direction: row-reverse;
   justify-content: start;
+}
+
+@media (max-width: 640px) {
+  .vision,
+  .vision:nth-child(even) {
+    flex-direction: column;
+  }
 }
 </style>
