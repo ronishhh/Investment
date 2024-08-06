@@ -11,17 +11,17 @@
       />
       <div class="title-container">
         <h2
-          class="md:text-8xl text-7xl font-bold absolute md:top-[250px] top-[270px] md:left-[50px] left-[20px] text-white animated-text"
+          class="md:text-8xl text-6xl font-bold absolute md:top-[250px] top-[290px] md:left-[25px] left-[20px] transition-all delay-100 text-white animated-text"
         >
           About Us
         </h2>
       </div>
     </div>
     <div
-      class="company-overview text-justify text-lg mt-4 px-[50px] w-full rounded-lg"
+      class="company-overview text-justify py-4 px-6 mt-4 w-full rounded-lg"
     >
-      <h3 class="text-5xl font-bold mb-2">Finance Investment</h3>
-      <span class="md:tracking-wide md:leading-loose">
+      <h1 class="font-bold">Finance Investment</h1>
+      <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam minus
         officiis quia, vero atque illo illum ipsum, temporibus ipsam
         voluptatibus corrupti perspiciatis. Facilis mollitia quidem obcaecati
@@ -36,7 +36,7 @@
         repudiandae nobis nam quia dolorem at ad? Voluptatum placeat blanditiis
         assumenda, suscipit eius temporibus earum expedita, excepturi sunt est
         adipisci. At!
-      </span>
+      </p>
     </div>
   </div>
 </template>

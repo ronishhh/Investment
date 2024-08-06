@@ -3,18 +3,18 @@
     <!-- Header conent -->
     <div>
       <Marquee />
-      <div class="container mx-auto">
+      <div class="max-w-[1440px] mx-auto">
         <Header />
       </div>
     </div>
     <!-- Main content -->
     <div>
-      <div class="container mx-auto">
+      <div class="max-w-[1440px] mx-auto">
         <RouterView />
       </div>
     </div>
     <div>
-      <div class="container mx-auto">
+      <div class="max-w-[1440px] mx-auto">
         <Footer />
       </div>
     </div>
