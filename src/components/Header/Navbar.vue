@@ -3,7 +3,7 @@
     <ul class="menu menu-horizontal px-1 font-medium">
       <li><router-link :to="{ name: 'home' }">Home</router-link></li>
       <li><router-link :to="{ name: 'about' }">About</router-link></li>
-      <li><router-link to="">Services</router-link></li>
+      <li><router-link :to="{ name: 'blogs' }">Blog</router-link></li>
       <li><router-link to="">Features</router-link></li>
       <li>
         <details>

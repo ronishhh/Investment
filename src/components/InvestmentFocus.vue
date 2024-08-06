@@ -1,9 +1,7 @@
 <template>
   <div class="flex flex-col justify-center items-center">
     <div class="my-4 text-center">
-      <h2 class="investment-title border-bottom">
-        Investment Focus
-      </h2>
+      <h2 class="investment-title border-bottom">Investment Focus</h2>
       <p class="my-4">Lorem ipsum dolor sit amet consectetur.</p>
     </div>
     <div class="carousel carousel-center rounded-box w-2/3 space-x-4 p-4">
