@@ -8,27 +8,45 @@
       <div
         class="upper bg-gray-100 h-full flex flex-col items-center justify-start pt-12"
       >
-        <h3 class="h2 font-bold w-3/4 text-center tracking-wide max-w-[1024px] text-pretty">
+        <h3
+          class="h2 font-bold w-3/4 text-center tracking-wide max-w-[1024px] text-pretty"
+        >
           Lorem ipsum, dolor sit amet consectetur adipisicing elit.
           Necessitatibus, sed.
         </h3>
-        <p class="font-medium text-lg w-2/3 text-center mt-4">
+        <p class="font-medium md:text-lg w-2/3 text-center mt-4">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis
           laborum in sit sint exercitationem dignissimos voluptatem quis autem
           magni ab.
         </p>
       </div>
       <div class="lower border-t-2 w-full h-1/2 relative">
-        <div class="absolute top-[-150px] px-20 h-[290px] w-full">
+        <div
+          class="absolute sm:top-[-150px] top-[-80px] sm:pl-[40px] pl-[25px] h-[300px] w-full"
+        >
           <div class="w-full h-full flex justify-between">
             <swiper
               class="w-full h-full"
-              :slides-per-view="4"
-              :space-between="110"
+              :slides-per-view="1"
+              :space-between="120"
+              :breakpoints="{
+                640: {
+                  slidesPerView: 2,
+                  spaceBetween: 0,
+                },
+                930: {
+                  slidesPerView: 3,
+                  spaceBetween: 20,
+                },
+                1124: {
+                  slidesPerView: 4,
+                  spaceBetween: 80,
+                },
+              }"
               :pagination="{ clickable: true }"
             >
               <swiper-slide v-for="team in teamData" :key="team">
-                <div class="h-56 w-56 bg-gray-200 rounded-lg team">
+                <div class="h-56 w-56 text-center bg-gray-200 rounded-lg team">
                   <img
                     :src="team.image"
                     alt="team"

@@ -11,7 +11,7 @@
       />
       <div class="title-container">
         <h2
-          class="md:text-8xl text-7xl font-bold absolute md:top-[250px] top-[270px] md:left-[50px] left-[20px] text-white animated-text"
+          class="md:text-8xl text-6xl font-bold absolute md:top-[250px] top-[290px] md:left-[25px] left-[20px] transition-all delay-100 text-white animated-text"
         >
           About Us
         </h2>
