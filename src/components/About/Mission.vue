@@ -55,7 +55,7 @@
   </div>
 </template>
 <style scoped>
-.quote-container {
+/* .quote-container {
   border-left: 5px solid #ccc;
   font-style: italic;
 }
@@ -78,5 +78,5 @@
   line-height: 0;
   margin-left: 0.1em;
   vertical-align: -0.4em;
-}
+} */
 </style>
