@@ -1,5 +1,8 @@
 <template>
   <div>
+    <div class="flex justify-center">
+      <img src="../assets//img/Hero.png" alt="hero image" width="1400" />
+    </div>
     <InvestmentFocus />
     <Vision />
   </div>
