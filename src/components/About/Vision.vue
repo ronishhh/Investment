@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-20 px-[50px]">
+  <div class="mt-20">
     <div class="my-4 text-center">
       <h2 class="mission-title mx-auto border-bottom">Our Vision</h2>
       <p class="my-4 text-gray-500">Discover the vision behind our mission</p>
@@ -24,7 +24,7 @@
         <img
           :src="item.img"
           alt="ceo image"
-          class="h-[400px] w-[600px] object-cover rounded-xl object-fit"
+          class="h-[500px] w-[700px] object-cover rounded-xl object-fit"
         />
       </div>
     </div>

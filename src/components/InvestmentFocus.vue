@@ -1,10 +1,10 @@
 <template>
-  <div class="flex flex-col justify-center items-center">
-    <div class="my-4 text-center">
+  <div class="flex flex-col justify-center items-center my-16">
+    <div class="my-4 flex flex-col justify-center items-center">
       <h2 class="investment-title border-bottom">Investment Focus</h2>
-      <p class="my-4">Lorem ipsum dolor sit amet consectetur.</p>
+      <p class="my-4 text-center">Lorem ipsum dolor sit amet consectetur.</p>
     </div>
-    <div class="carousel carousel-center rounded-box w-2/3 space-x-4 p-4">
+    <div class="carousel carousel-center rounded-box w-full space-x-4">
       <div class="carousel-item" v-for="item in carouselItems" :key="item">
         <div class="overlay-container">
           <div class="h-[400px] w-[300px]">
