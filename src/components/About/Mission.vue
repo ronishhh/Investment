@@ -54,29 +54,3 @@
     </div>
   </div>
 </template>
-<style scoped>
-/* .quote-container {
-  border-left: 5px solid #ccc;
-  font-style: italic;
-}
-
-.quote {
-  quotes: "“" "”";
-}
-
-.quote::before {
-  content: open-quote;
-  font-size: 2em;
-  line-height: 0;
-  margin-right: 0.1em;
-  vertical-align: -0.4em;
-}
-
-.quote::after {
-  content: close-quote;
-  font-size: 2em;
-  line-height: 0;
-  margin-left: 0.1em;
-  vertical-align: -0.4em;
-} */
-</style>

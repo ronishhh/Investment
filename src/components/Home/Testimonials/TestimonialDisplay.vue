@@ -5,11 +5,11 @@
         What people say about us
       </blockquote>
     </div>
-    <div class="flex flex-row">
+    <div>
       <swiper
-        :slidesPerView="'auto'"
+        :slidesPerView="`auto`"
         :centeredSlides="true"
-        :spaceBetween="30"
+        :spaceBetween="0"
         :pagination="{
           dynamicBullets: true,
         }"
@@ -33,7 +33,7 @@ import TestimonialDetail from "./TestimonialDetail.vue";
 const modules = ref([Pagination]);
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 .swiper {
   width: 100%;
   height: 100%;
@@ -48,6 +48,7 @@ const modules = ref([Pagination]);
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 0 !important;
 }
 
 .swiper-slide img {
@@ -58,6 +59,12 @@ const modules = ref([Pagination]);
 }
 
 .swiper-slide {
-  width: 60%;
+  width: 720px !important;
+}
+
+@media (max-width: 1024px) {
+  .swiper-slide {
+    width: 320px !important;
+  }
 }
 </style>
