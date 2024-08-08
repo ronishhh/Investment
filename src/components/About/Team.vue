@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-20 px-[50px]">
+  <div class="mt-20 xl:px-[50px]">
     <div class="my-4 text-center">
       <h2 class="mission-title mx-auto border-bottom">Our Team</h2>
       <p class="my-4 text-gray-500">Lorem ipsum dolor sit amet consectetur.</p>
@@ -22,28 +22,31 @@
       </div>
       <div class="lower border-t-2 w-full h-1/2 relative">
         <div
-          class="absolute sm:top-[-150px] top-[-80px] sm:pl-[40px] pl-[25px] h-[300px] w-full"
+          class="absolute sm:top-[-150px] top-[-100px] sm:pl-[40px] pl-[25px] h-[320px] w-full"
         >
-          <div class="w-full h-full flex justify-between">
+          <div>
             <swiper
-              class="w-full h-full"
-              :slides-per-view="1"
-              :space-between="120"
+              :slidesPerView="1"
+              :spaceBetween="0"
               :breakpoints="{
-                640: {
+                495: {
                   slidesPerView: 2,
-                  spaceBetween: 0,
+                  spaceBetween: 20,
                 },
-                930: {
+                768: {
                   slidesPerView: 3,
                   spaceBetween: 20,
                 },
-                1124: {
+                980: {
                   slidesPerView: 4,
-                  spaceBetween: 80,
+                  spaceBetween: 40,
                 },
               }"
-              :pagination="{ clickable: true }"
+              :pagination="{
+                dynamicBullets: true,
+              }"
+              :modules="modules"
+              class="mySwiper"
             >
               <swiper-slide v-for="team in teamData" :key="team">
                 <div class="h-56 w-56 text-center bg-gray-200 rounded-lg team">
@@ -68,7 +71,10 @@
 </template>
 <script setup>
 import { Swiper, SwiperSlide } from "swiper/vue";
-import { reactive } from "vue";
+import { Pagination } from "swiper/modules";
+import { reactive, ref } from "vue";
+
+const modules = ref([Pagination]);
 const teamData = reactive([
   {
     name: "John Doe",
@@ -120,9 +126,13 @@ const teamData = reactive([
   },
 ]);
 </script>
-<style>
+<style scoped>
 .team {
   /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.mySwiper {
+  height: 320px !important;
 }
 </style>
