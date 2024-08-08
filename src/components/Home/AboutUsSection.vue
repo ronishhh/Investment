@@ -1,34 +1,12 @@
 <template>
   <div>
-    <!-- <div class="w-full h-[500px] relative">
-      <img
-        src="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        alt="about us"
-        class="object-cover object-center w-full h-full"
-      />
-      <div class="overlay absolute top-0 left-0 h-full w-full" />
-      <div
-        class="absolute bottom-0 left-0 translate-x-[120px] -translate-y-3/4"
-      >
-        <div class="text-white">
-          <h2 class="text-5xl">About Us</h2>
-          <span>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta
-            omnis, praesentium dolorum quasi aliquid reprehenderit voluptates,
-            error obcaecati repellendus eaque porro deleniti sint recusandae
-            sed? Sed molestias eligendi neque dignissimos.
-          </span>
-        </div>
-        <router-link :to="{ name: 'about' }">
-          <button class="btn btn-primary mt-2">View Our Core Values</button>
-        </router-link>
-      </div>
-    </div> -->
     <div class="mt-16">
       <div class="flex justify-center">
         <h2 class="h2 border-bottom text-center">About Us</h2>
       </div>
-      <div class="flex justify-between items-center gap-8 my-8">
+      <div
+        class="flex lg:flex-row flex-col lg:justify-between lg:items-center gap-8 my-8"
+      >
         <div class="h-[500px] rounded-xl">
           <img
             src="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
@@ -37,7 +15,7 @@
           />
         </div>
 
-        <div class="w-1/2 flex flex-col">
+        <div class="lg:w-1/2 w-full flex flex-col text-justify">
           <span>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             Consequuntur architecto deserunt, error porro ipsam ipsa fugiat est
@@ -51,7 +29,7 @@
           </span>
           <router-link :to="{ name: 'about' }">
             <button
-              class="btn bg-green-300 text-black font-medium hover:bg-green-400 hover:text-white mt-2"
+              class="btn bg-green-400 text-black font-medium hover:bg-green-500 mt-2"
             >
               View Our Core Values
             </button>
