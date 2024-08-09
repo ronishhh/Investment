@@ -1,15 +1,15 @@
 <template>
   <div>
     <!-- Header conent -->
-    <div>
+    <div class="bg-white">
       <Marquee />
-      <div class="max-w-[1440px] mx-auto">
+      <div class="max-w-[1440px] mx-auto ">
         <Header />
       </div>
     </div>
     <!-- Main content -->
     <div>
-      <div class="max-w-[1440px] mx-auto">
+      <div>
         <RouterView />
       </div>
     </div>

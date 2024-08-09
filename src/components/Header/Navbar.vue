@@ -4,7 +4,7 @@
       <li><router-link :to="{ name: 'home' }">Home</router-link></li>
       <li><router-link :to="{ name: 'about' }">About</router-link></li>
       <li><router-link :to="{ name: 'blogs' }">Blog</router-link></li>
-      <li><router-link to="">Features</router-link></li>
+      <li><router-link :to="{ name: 'strategy' }">Strategy</router-link></li>
       <li>
         <details>
           <summary>Reports</summary>
@@ -15,7 +15,7 @@
           </ul>
         </details>
       </li>
-      <li><router-link to="">Announcements</router-link></li>
+      <li><router-link :to="{name: 'service'}">Services</router-link></li>
       <li><router-link to="">Company</router-link></li>
     </ul>
   </div>
