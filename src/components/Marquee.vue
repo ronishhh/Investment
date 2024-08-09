@@ -22,21 +22,8 @@
 
 <style scoped>
 .marquee-wrapper {
-  background-image: linear-gradient(
-    to bottom,
-    #e5e7eb,
-    #e7eaed,
-    #eaecef,
-    #eceff1,
-    #eff1f3,
-    #f1f3f4,
-    #f2f4f6,
-    #f4f6f7,
-    #f5f7f8,
-    #f7f8f9,
-    #f8f9fa,
-    #f9fafb
-  );
+  background:black;
+  color: white;
 }
 
 .marquee {
