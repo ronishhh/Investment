@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-[1440px] mx-auto md:p-[2rem] md:py-10 py-5 bg-[#f4f4f4]" id="faqs">
+  <div class="max-w-[1440px] mx-auto md:p-[2rem] md:py-10 py-5" id="faqs">
     <h1 class="font-bold md:my-10 my-5 text-center mb-6 px-3 border-bottom">
       FAQs
     </h1>
