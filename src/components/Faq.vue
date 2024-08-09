@@ -141,12 +141,6 @@ const toggle = (index: number) => {
   transition: max-height 0.5s ease, padding 0.5s ease, width 0.5s ease,
     opacity 0.7s ease;
 }
-.closed {
-  max-height: 0;
-  padding: 0;
-  opacity: 0;
-  width: 0;
-}
 
 .open {
   max-height: auto;
