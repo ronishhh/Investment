@@ -54,6 +54,8 @@
   justify-content: space-around;
   gap: var(--gap);
   min-width: 100%;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 .marquee__content {
