@@ -1,6 +1,6 @@
 <template>
-  <div class="max-w-[1440px] mx-auto pt-10 px-[10px]">
-    <h1 class="text-center">Our Services</h1>
+  <div class="max-w-[1440px] mx-auto md:pt-10 pt-5 px-[10px]">
+    <h1 class="text-center py-10 border-bottom mx-auto w-fit">Our Services</h1>
     <div class="grid grid-cols-1 md:grid-cols-4 gap-4 py-10">
       <div v-for="(item, index) in sercviceData" :key="index">
         <div class="bg-white h-full rounded">
@@ -75,7 +75,7 @@
       <h6 class="uppercase">Business Analytics</h6>
       <h2 class="h1 text-center mx-auto">Market analysis and innovation</h2>
       <div class="text-center py-10">
-        <router-link :to="{ name: 'about' }" class="bg-green-500 text-gray-950 font-medium px-10 py-4 duration-150 rounded hover:bg-green-700">About us</router-link>
+        <router-link :to="{ name: 'about' }" class="bg-green-500 text-gray-950 font-medium px-10 py-4 duration-150 hover:bg-green-700">About us</router-link>
       </div>
     </div>
   </div>
@@ -195,7 +195,7 @@ const MileStoneData: readonly MileStone[] = [
   .animation {
     max-height: 100px;
     height: 100%;
-    max-width: 300px;
+    max-width: 360px;
     width: 100%;
     opacity: 0;
     transform: translate(-50%, 0);
@@ -211,7 +211,7 @@ const MileStoneData: readonly MileStone[] = [
       width: 100%;
     }
 
-    @media (max-width: 320px) {
+    @media (max-width: 360px) {
       transform: translate(-50%, 0);
     }
   }
