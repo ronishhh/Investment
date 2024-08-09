@@ -2,7 +2,7 @@
   <div class="p-3 marquee-wrapper">
     <div class="marquee marquee--hover-pause">
       <ul class="marquee__content">
-        <li v-for="i in 6" :key="i" class="flex justify-around gap-3">
+        <li v-for="i in 6" :key="i" class="mb-0">
           <span>Join Us for Just NPR.999!</span>
           <span class="font-medium">Your Path to Growth Starts Here</span>
           <span>👌</span>
@@ -10,7 +10,7 @@
       </ul>
 
       <ul aria-hidden="true" class="marquee__content">
-        <li v-for="i in 6" :key="i" class="flex justify-around gap-3">
+        <li v-for="i in 6" :key="i" class="mb-0">
           <span>Join Us for Just NPR.999!</span>
           <span class="font-medium">Your Path to Growth Starts Here</span>
           <span>👌</span>
@@ -44,7 +44,6 @@
   position: relative;
   display: flex;
   overflow: hidden;
-  user-select: none;
   gap: var(--gap);
 }
 
@@ -53,7 +52,6 @@
   display: flex;
   justify-content: space-around;
   gap: var(--gap);
-  min-width: 100%;
   padding: 0 !important;
   margin: 0 !important;
 }
