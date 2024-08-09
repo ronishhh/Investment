@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="py-10 max-w-[1440px] mx-auto px-[10px]">
     <div class="flex justify-center">
       <img src="../assets//img/Hero.png" alt="hero image" width="100%" />
     </div>
@@ -17,4 +17,9 @@ import TestimonialDisplay from "@/components/Home/Testimonials/TestimonialDispla
 import AboutUsSection from "@/components/Home/AboutUsSection.vue";
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+img{
+  mix-blend-mode: darken;
+}
+
+</style>

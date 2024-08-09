@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="max-w-[1440px] mx-auto px-[10px] py-10">
     <BlogGrid>
       <BlogPost v-for="item in dataItems" :key="item" :item="item" />
     </BlogGrid>

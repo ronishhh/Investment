@@ -1,5 +1,5 @@
 <template>
-  <div class="about mt-4">
+  <div class="about py-10 max-w-[1440px] mx-auto px-[10px]">
     <AboutUs />
     <Mission />
     <Vision />
