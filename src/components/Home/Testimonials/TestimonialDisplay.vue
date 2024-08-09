@@ -43,7 +43,6 @@ const modules = ref([Pagination]);
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #fff;
   width: 100%;
   height: 100%;
   display: flex;
