@@ -54,3 +54,6 @@
     </div>
   </div>
 </template>
+<style scoped>
+@import "../../assets/scss/_utility.scss";
+</style>

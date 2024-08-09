@@ -34,6 +34,7 @@ const modules = ref([Pagination]);
 </script>
 
 <style scoped>
+@import "../../../assets/scss/_utility.scss";
 .swiper {
   width: 100%;
   height: 100%;
