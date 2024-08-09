@@ -1,6 +1,6 @@
 <template>
   <div class="max-w-[1440px] mx-auto md:pt-10 pt-5 px-[10px]">
-    <h1 class="text-center py-10 border-bottom mx-auto w-fit">Our Services</h1>
+    <h1 class="text-center py-10 border-bottom">Our Services</h1>
     <div class="grid grid-cols-1 md:grid-cols-4 gap-4 py-10">
       <div v-for="(item, index) in sercviceData" :key="index">
         <div class="bg-white h-full rounded">

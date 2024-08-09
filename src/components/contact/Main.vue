@@ -1,6 +1,6 @@
 <template>
   <div class="max-w-[1440px] mx-auto px-[10px] md:py-10 py-5">
-    <h1 class="text-center border-bottom w-fit mx-auto md:mb-10 my-5">Contact</h1>
+    <h1 class="text-center border-bottom md:my-10 my-5">Contact</h1>
     <div class="md:pb-10 pb-5 grid md:grid-cols-3 grid-cols-1">
       <div
         class="text-center md:py-0 py-3"
