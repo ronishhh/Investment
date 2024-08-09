@@ -16,7 +16,7 @@
         </details>
       </li>
       <li><router-link :to="{name: 'service'}">Services</router-link></li>
-      <li><router-link to="">Company</router-link></li>
+      <li><router-link :to="{ name: 'contact' }">Contact</router-link></li>
     </ul>
   </div>
 </template>
